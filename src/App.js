@@ -93,6 +93,7 @@ const App = (props) => {
                 <h2 style={{ color: "blue" }}>
                   by <span style={{ color: "#000" }}>{image.author}</span>
                 </h2>
+                <a href={image.url} target="_blank">View Source</a>
                 <a href={image.download_url} target="_blank">
                   Download
                 </a>
